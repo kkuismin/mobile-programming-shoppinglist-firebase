@@ -55,7 +55,7 @@ export default function App() {
           renderItem={({item}) =>
             <View style={styles.flatlistcontainer}>
               <Text>{item.product}, {item.amount}</Text>
-              <Text style={styles.deletebutton} onPress={() => deleteItem(item.key)}>bought</Text>
+              <Text style={styles.deletebutton} onPress={() => deleteItem(item.key)}>delete</Text>
             </View>}
         />
         <StatusBar style="auto" />
